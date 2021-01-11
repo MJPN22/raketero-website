@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+
+
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+section{
+  padding-top: 150px
+}
+
+
+.feature{
+ 
+  background-color: #ef5734;
+  background-image: linear-gradient(315deg, #ef5734 0%, #ffcc2f 74%);
+  
+  padding: 80px;
+  
+}
+
+.feature .feature-list{
+
+}
+
+.feature-item {
+  margin-bottom: 50px !important;
+}
+
+.footer-item{
+  border: none !important;
+  padding-left: none;
+}
+
+.hero-section{
+  padding: 40px 0;
+  height: 75vh;
+}
+
+
+/* body
+  background #212121 */
+.hero-scroll{
+ 
+  padding: 40px 0;
+}
+.scroll-down{
+  border: 2px solid orangered;
+  border-radius: 20px;
+  bottom: 60px;
+  height: 50px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  width: 30px;
+}
+.scroll-down::before{
+    animation: scrollDownAnimation 2s infinite;
+    background-color: orangered;
+    border-radius: 100%;
+    content: '';
+    height: 6px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 6px;
+}
+
+@keyframes scrollDownAnimation{
+  0%{
+
+ 
+    opacity: 0;
+    transform: translate(0, 0);
+  }
+  40%{
+    opacity: 1;
+  }
+    
+
+  80%
+   {
+    opacity: 0;
+    transform: translate(0, 20px);
+   }
+
+  100%
+  {
+    opacity: 0;
+  }
+}
+
+.hero-text{
+  font-size: 20px !important;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+.hero-text2{
+  font-size: 16px !important;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+.how-it-works-image{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.how-it-works-image img{
+  width: 80%;
+
+  margin-bottom: 30px;
+  
+}
+
+.flex-col-center{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flex{
+  display: flex;
+}
+
+.icon-sm{
+  border-radius: 50%;
+  background-color: #eec0c6;
+  background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+  
+  
+  width: 55px;
+  height: 55px;
+}
+
+
+
+.feature-text{
+  color: #fff;
+  margin-left: 5px;
+  width: calc(100% - 55px); 
+}
+.color-white{
+  color: #fff !important;
+}
+
+.bg-none{
+  border: none !important;;
+  background-color: transparent !important;
+}
+
+.logo-sm{
+  width: 100px;
+}
+
+.logo-md{
+  width: 200px;
+}
+
+img{
+  width: 100%;
+}
+
+.vid video{
+  border-radius: 10px;
+}
+
+.introduction{
+  padding-left: 50px !important;
+}

@@ -1,0 +1,41 @@
+* {
+  outline: 0; }
+
+.text-field {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  -webkit-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out; }
+  .text-field.sm {
+    padding: 10px; }
+  .text-field.md {
+    padding: 15px; }
+  .text-field ~ label {
+    position: absolute;
+    padding: 5px;
+    top: 10px;
+    left: 10px;
+    -webkit-transition: 0.1s ease-in-out;
+    -o-transition: 0.1s ease-in-out;
+    transition: 0.1s ease-in-out; }
+  .text-field:focus, .text-field:hover {
+    border: 1px solid #006eff !important; }
+    .text-field:focus ~ label, .text-field:hover ~ label {
+      background-color: #fff;
+      top: -18px; }
+
+.btn-expand {
+  width: 100%; }
+
+.btn.md {
+  padding: 15px; }
+
+.btn-round {
+  border-radius: 50px !important; }
+
+.btn-default {
+  border: 1px solid #333 !important;
+  background-color: transparent !important; }

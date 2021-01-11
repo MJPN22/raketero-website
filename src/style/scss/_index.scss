@@ -1,0 +1,59 @@
+*{
+  outline: 0;
+}
+.text-field{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    transition: 0.2s ease-in-out;
+    &.sm{
+      padding: 10px;  
+    }
+
+    &.md{
+        padding: 15px;  
+      }
+
+      & ~ label{
+        position: absolute;
+        // top: 15px;
+        // left: 15px;
+        padding:  5px;
+        top: 10px;
+        left: 10px;
+        transition: 0.1s ease-in-out;
+      
+      }
+
+      &:focus, &:hover{
+        border: 1px solid rgb(0, 110, 255) !important;
+        
+        & ~ label{
+          background-color: #fff;
+          top: -18px;
+         
+        }
+
+      }
+}
+
+.btn{
+    
+    &-expand{
+        width: 100%;
+    }
+
+    &.md{
+        padding: 15px;
+    }
+
+    &-round{
+        border-radius: 50px !important;
+    }
+}
+
+.btn-default{
+    border: 1px solid #333 !important;
+    background-color: transparent !important;
+}
